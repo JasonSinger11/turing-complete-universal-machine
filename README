@@ -1,0 +1,18 @@
+Names: Jason Singer (jsinge02) and Anna Zou (yzou03)
+
+Help Received: Various TAs helped us in office hours, and the Hansen Textbook
+
+What has been correctly implemented: Everything (hopefully !)
+
+Departures from design: We created a 3rd module for operations, found in the
+op.c and op.h files. We also did not fully understand some instructions like
+load program, but mostly stuck to the design we had layed out
+
+Architecture of the System:
+
+The UM is represented mainly by the UM module (um.c and um.h). At the highest
+level, there is a UM struct, containign an array of 32bit registers, a pointer
+to the allSegments struct (segments module), a program counter that keeps track
+of what number instruction is being executed, and 
+
+The segmentsm 
